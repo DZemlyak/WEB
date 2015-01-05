@@ -138,6 +138,7 @@ button {
     letter-spacing: 0.02em;
 }
 
+
 .view-container {
     float: right;   
     margin-top: 17px;
@@ -146,25 +147,32 @@ button {
     float: right;
     width: 35px;
     height: 28px;
-    align-content: center;
-    vertical-align: middle;
+    padding-top: 3px;
 }
 .view-container img {
     float: none;
 }
-#plate-view {
+#line-view {
     padding-right: 3px;
-    padding-top: 3px;
     background: url(../img/view_button_bg.png) -32px 0;
     background-repeat: no-repeat;
 }
-
-#line-view {
+#plate-view-selected {
     padding-left: 3px;
-    padding-top: 3px;
     background: url(../img/active_view.png);
     background-repeat: no-repeat;
 }
+#plate-view {
+    margin-right: -5px;
+    background: url(../img/view_button_bg.png);
+    background-repeat: no-repeat;
+}
+#line-view-selected {
+    width: 37px;
+    background: url(../img/active_view_1.png);
+    background-repeat: no-repeat;
+}
+
 
 
 .picture-container {
@@ -187,20 +195,21 @@ button {
 }
 
 .input-area {
-    width: 317px;
+    width: 325px;
     float: left;
     margin-top: 3px;
-    margin-left: 6px;
+    padding-left: 6px;
 }
 
 input, textarea {
     width: 100%;
     height: 28px;
-    padding-left: 8px;
     margin-bottom: 8px;
     border: 1px #8c969f solid;
     border-radius: 5px;    
     font-size: 8pt;
+    font-family: "Arial";
+    text-indent: 8px;
     overflow: auto;
     resize: none;
 }
@@ -214,11 +223,11 @@ input, textarea {
 #instruction-text {
     float: left; 
     height: 89px;    
-    width:425px;    
+    width: 435px;    
     padding-top: 8px;
-    padding-left: 10px;
     margin-top: 5px;
     margin-left: 2px;
+    text-indent: 10px;
 }
 
 .footer-contols {
