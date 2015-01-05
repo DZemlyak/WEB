@@ -7,20 +7,20 @@ body {
     width: 474px;
     height: 427px; 
 }
-a {
+a, span {
     float: left;
     text-decoration: none;
     color: #505050;
     font-size: 0.8em;
     font-family: "Arial";;
 }
-a:hover {
+a:hover, span:hover {
     text-decoration: none;   
 }
 img {
     float: left;   
 }
-input, button {
+button {
     border: none;
 }
 .clear {
@@ -75,7 +75,6 @@ input, button {
     content: none;
 }
 #first-menu-item:hover {
-    padding-left: 0;
     background-image: url(../img/active_menu.png);
     background-repeat: round;
 }
@@ -89,20 +88,27 @@ input, button {
 }
 
 #last-menu-item {
-    width: 119px;
+    width: 118px;
 }
 #last-menu-item:hover{
     background-repeat: no-repeat;
-    padding-right: 0px;
+    padding-right: 0;
 }
 
-#separator {
-    margin-top: 0;
-    margin-left: 1px;
+.first-menu-selected {
+    background-image: url(../img/active_menu.png);
+    background-repeat: round;
 }
-
 .selected {
-       
+    margin-right: -14px;
+    padding-right: 14px;
+    background-image: url(../img/active_menu_1.png);
+    background-repeat: no-repeat;
+    background-repeat: round;
+}
+.last-menu-selected {
+    background-repeat: no-repeat;
+    padding-right: 0;
 }
 
 /*****  HEADER END *******/
@@ -113,9 +119,9 @@ input, button {
 
 
 .center {
-    height: 100%;
+    height: 382px;
     margin-top: -10px;
-    padding: 7px 17px 0 18px;
+    padding: 7px 17px 0 17px;
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
 }
@@ -123,9 +129,10 @@ input, button {
 .description {
     float: left;
     margin-top: 20px;
+    margin-left: 1px;
 }
 
-.description a {
+.description span, a {
     margin-left: 2px;
     margin-top: 9px;
     letter-spacing: 0.02em;
@@ -160,10 +167,85 @@ input, button {
 }
 
 
-.picture-container{
-    
+.picture-container {
+    margin-top: 1px;
+    float: left;
+}
+.picture-container form {
+    display: inline-block;
+    margin-top: 1px;
+    float: left;
 }
 
+.picture-container button {
+    border: none;
+    width: 106px;
+    height: 26px;
+    margin-left: -1px;
+    background: url(../img/button.png);
+    color: white;
+}
+
+.input-area {
+    width: 317px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+input, textarea {
+    width: 100%;
+    height: 28px;
+    padding-left: 8px;
+    margin-bottom: 8px;
+    border: 1px #8c969f solid;
+    border-radius: 5px;    
+    font-size: 8pt;
+    overflow: auto;
+    resize: none;
+}
+
+#description-text {
+    height: 83px;
+    padding-top: 9px;
+    margin-bottom: 0;
+}
+
+#instruction-text {
+    float: left; 
+    height: 89px;    
+    width:425px;    
+    padding-top: 8px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.footer-contols {
+    width: 100%;
+    float: left;
+    padding-top: 3px;
+}
+.footer-contols button {
+    height: 26px;
+    width: 92px;
+    font-size: 9pt;
+    color: white;
+    letter-spacing: -0.02em;
+    padding-top: 2px;
+}
+
+#next-menu-button {
+    float: right;
+    margin-right: 1px;
+    padding-right: 4px;
+    background: url(../img/button_next.png);
+}
+#prev-menu-button {
+    float: left;
+    padding-left: 10px;
+    background: url(../img/button_prev.png);
+}
 
 /*****  CONTENT END *******/
 

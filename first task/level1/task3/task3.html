@@ -7,13 +7,13 @@
  </head> 
  <body>
      <div class="header">
-         <div id="first-menu-item">
+         <div class="first-menu-selected" id="first-menu-item">
              <img src="img/notepad.png" />
              <a href="">Описание</a>
          </div>
          <div>
              <img src="img/bottle.png" />
-             <a href="">Ингридиенты</a>
+             <a href="">Ингредиенты</a>
              
          </div>
          <div>
@@ -30,22 +30,48 @@
      <div class="center">
          <div class="description">
             <img src="img/notepad_desx_img.png" />
-             <a href="">Описание</a>
+             <span>Описание</span>
          </div>
-         <form action="task3.html" class="view-container">
-             <button type="submit" id="plate-view">
-                 <img src="img/line_view_icon.png" />
-             </button>
-             <button type="submit" id="line-view">
-                 <img src="img/plate_view_icon.png" />
-             </button>
-         </form>
+         <div class="view-container">
+             <form action="task3.html">
+                 <button type="submit" id="plate-view">
+                     <img src="img/line_view_icon.png" />
+                 </button>
+                 <button type="submit" id="line-view">
+                     <img src="img/plate_view_icon.png" />
+                 </button>
+             </form>         
+         </div>         
          <div class="clear"></div>
          <div class="picture-container">
-            tttt
+             <img src="img/def_desc_img.png" />
+             <div class="clear"></div>
+             <form action="">                
+                <button type="submit">Загрузить</button>
+             </form>
          </div>
-         
-         
+         <div class="input-area">
+            <input type="text" form=""
+                   placeholder="Название коктейля"></input>
+            <input type="text" form=""
+                placeholder="Альтернативное название через запятую"></input>
+            <textarea id="description-text" form="" 
+               placeholder="Краткое описание"></textarea>
+         </div>
+         <div class="clear"></div>
+         <div>
+            <textarea id="instruction-text" form=""
+                   placeholder="Инструкция для приготовления"></textarea>
+        </div>
+        <div class="clear"></div>
+        <div class="footer-contols">
+            <form>
+                <button type="submit" 
+                        id="next-menu-button">Ингредиенты</button>
+                <button type="submit" 
+                        id="prev-menu-button">Ингредиенты</button>
+            </form>
+        </div>
      </div>
  </body>
 </html>
