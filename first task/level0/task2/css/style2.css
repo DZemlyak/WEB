@@ -1,0 +1,42 @@
+body {
+    margin: 10px 5px 0 10px;
+}
+
+body p {
+    clear: left;
+}
+
+.item-list {
+    height: 40px;
+    background-color: RGB(240, 240, 240);
+    border-bottom: 3px RGB(204, 204, 204) solid;
+}
+
+.pager {
+    height: 40px;
+    margin: 0px; 
+}
+
+.pager li {
+    float: left;
+    display: inline;
+    height: 20px;
+    list-style-type: none;
+    padding: 10px 15px;
+    color: RGB(114, 0, 0);
+}
+
+.pager li:hover {
+    height: 20px;
+    color: black;
+    background-color: RGB(204, 204, 204);
+    border-bottom: 3px RGB(55, 55, 55) solid;
+}
+
+.pager li a {
+    text-decoration: none;
+    color: RGB(114, 0, 0);
+}
+
+
+
