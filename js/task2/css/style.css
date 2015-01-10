@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 5px;
+}
+.wrapper {
+    background-color: RGB(236,243,252);   
+    width: 230px;
+    height: 400px;
+}
+
+.text-panel {
+    background-color: RGB(226,236,250);  
+}
+
