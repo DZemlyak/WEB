@@ -7,7 +7,50 @@ body {
     
     .wrapper {
         padding-bottom: 50px;
+        
+        .side-menu {
+            margin-bottom: 29px;
+            li {
+                display: list-item;
+                list-style-position: inside;
+                list-style-type: square;
+                font: 16px @main-font;
+                padding: 11px;               
+
+                &.active {
+                    color: @brand-primary;
+                    background: @panel-bg;
+                    border-color: @panel-inner-border;
+                }
+
+                a {
+                    color: @text-color;
+                    text-decoration: none;
+                    
+                    &.active {
+                        color: @brand-primary;
+                    }
+                }
+            }
+        }        
     }
+    
+    .panel{
+        box-shadow: none;
+        .panel-heading {
+            font: 16px @main-font;
+            padding: 11px;
+        }
+        .panel-body {
+            padding: 10px;
+            padding-bottom: 12px;
+            .panel-img {
+                background-color: #e2e2e2;
+                height: 180px;
+            }
+        }
+    }
+    
     .container {
         padding: 0;   
     }
