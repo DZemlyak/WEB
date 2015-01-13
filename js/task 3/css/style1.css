@@ -1,0 +1,27 @@
+body {
+    margin: 10px 0 0 5px;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 1px;
+    float: left;
+    font-size: 26px;
+    font-family: "Tahoma";
+    letter-spacing: 2px;
+}
+
+.leftContainer{
+    float: left;
+    display: inline;
+    padding: 15px 2px 3px 10px;
+    
+}
+
+.rightContainer{
+    display: inline;
+    float: left;
+    padding: 15px 10px 3px 2px;
+    background-color: black;
+    color: white;    
+}

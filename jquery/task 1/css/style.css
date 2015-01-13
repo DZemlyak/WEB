@@ -1,0 +1,23 @@
+body {
+    margin-top: 0;
+}
+.box { 
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#red {
+    background: red;
+}
+#green {
+    background: green;
+}
+#blue {
+    background: blue;
+}
+#black {
+    background: black;
+}
+
