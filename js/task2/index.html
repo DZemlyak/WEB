@@ -2,24 +2,59 @@
 <html>
  <head>
   <meta charset="utf-8" />
-     <title>Нумерация страниц</title>
+     <title>Калькулятор</title>
      <link rel="stylesheet" href="css/style.css">
      <script language="javascript" type="text/javascript" src="js/script.js"></script>
  </head> 
  <body>
      <div class="wrapper">
-         <div class="text-panel">
-             <div class="history-panel">
-
-             </div>
-             <div class="input-panel">
-
-             </div>
+         <div class="header">
+             <img src="ico.png" alt="" />
+             <h2>Калькулятор</h2>
          </div>
-         <div class="buttons-panel">
-             <div></div>
+         <div class="panel">
+             <div class="text-panel">
+                 <div class="history-panel">
+                     <input hidden="hidden" id="opHistory" />
+                     <input hidden="hidden" id="recordsNum" value="10" />
+                     <textarea id="allHistory" disabled>
+                     </textarea>
+                 </div>
+                 <div class="input-panel">
+                     <input type="text" value="0" id="textbox" disabled />
+                 </div>
+             </div>
+             <div class="buttons-panel">
+                 <button onclick="backspace()">&larr;</button>
+                 <button onclick="clearLast()">CE</button>
+                 <button onclick="clearAll()">C</button>
+                 <button onclick="invert()">+-</button>
+                 <button onclick="calculate(this)">&radic;</button>
+                 
+                 <button onclick="writeDigit(this)">7</button>
+                 <button onclick="writeDigit(this)">8</button>
+                 <button onclick="writeDigit(this)">9</button>
+                 <button onclick="doOperation(this)">/</button>
+                 <button onclick="calculate(this)">%</button>
+                 
+                 <button onclick="writeDigit(this)">4</button>
+                 <button onclick="writeDigit(this)">5</button>
+                 <button onclick="writeDigit(this)">6</button>
+                 <button onclick="doOperation(this)">*</button>
+                 <button onclick="calculate(this)">1/x</button>
+                 
+                 <button onclick="writeDigit(this)">1</button>
+                 <button onclick="writeDigit(this)">2</button>
+                 <button onclick="writeDigit(this)">3</button>
+                 <button onclick="doOperation(this)">-</button>
+                 <button class="result"
+                         onclick="calculate(true)">=</button>
 
-         </div>
+                 <button class="zero right"  onclick="writeDigit(this)">0</button>
+                 <button class="right"  onclick="wrtiteDot(this)">.</button>
+                 <button onclick="doOperation(this)">+</button>
+             </div>
+         </div>         
     </div>
  </body>
 </html>

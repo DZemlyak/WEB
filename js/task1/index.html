@@ -6,8 +6,8 @@
         <title>js clock</title>
     </head>
     <body>
-        <div style="width:400px; height:150px; background: lightgrey; border: 1px solid grey;overflow:auto;">
-            <span id="text"></span>
+        <div style="width:400px; height:150px; background: lightgrey; border: 1px solid grey;overflow:auto;" id="text-block">
+            
         </div>
         <div>
             <input style="width:365px; margin-top:10px;" type="text" id="textBox"/>
@@ -29,7 +29,7 @@
         var tb = document.getElementById("textBox");
         var text = tb.value + " "
             + hour.toString() + ":" + min.toString() + ":" + sec.toString();
-        document.getElementById("text").innerHTML += text + "\n";
+        document.getElementById("text-block").innerHTML += "<div style=\"width:100%;border-bottom:1px solid grey\">" + text + "</div>";
         tb.value = "";
     }
    
