@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: url(../img/bg.jpg);
+}
+
+.wrapper {
+    width: 1050px;
+    margin: auto;
+}
+
+.header {
+    height: 60px;
+    background: url(../img/bg.jpg);
+    padding: 25px;
+    text-align: center;
+}
+
+.header label {
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.header select {
+    padding: 5px 10px;
+    display:inline-block;
+}
+
+.header button {
+    margin-left: 30px;
+    width: 120px;
+    height: 30px;
+}
+
+.card-container {
+    padding: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.card-container .card {
+    width: 80px;
+    height: 125px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: url(../img/card.jpg) round;
+    border-radius: 6px;
+    font-size: 50px;
+    float: left;
+}
+
+.card-container .card p {
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
