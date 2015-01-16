@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+     <title>Калькулятор</title>
+     <link rel="stylesheet" href="css/style.css">
+ </head> 
+ <body>
+     <div class="wrapper">
+         <div class="header">
+             <img src="ico.png" alt="" />
+             <h2>Калькулятор</h2>
+         </div>
+         <div class="panel">
+             <div class="text-panel">
+                 <div class="history-panel">
+                     <textarea id="allHistory" disabled>
+                     </textarea>
+                 </div>
+                 <div class="input-panel">
+                     <input type="text" value="0" id="textbox" disabled />
+                 </div>
+             </div>
+             <div class="buttons-panel">
+                 <button id="backspace">&larr;</button>
+                 <button id="clearLast">CE</button>
+                 <button id="clearAll">C</button>
+                 <button id="invert">+-</button>
+                 <button class="specialOp">&radic;</button>
+                 
+                 <button class="digit">7</button>
+                 <button class="digit">8</button>
+                 <button class="digit">9</button>
+                 <button class="operation">/</button>
+                 <button class="specialOp">%</button>
+                 
+                 <button class="digit">4</button>
+                 <button class="digit">5</button>
+                 <button class="digit">6</button>
+                 <button class="operation">*</button>
+                 <button class="specialOp">1/x</button>
+                 
+                 <button class="digit">1</button>
+                 <button class="digit">2</button>
+                 <button class="digit">3</button>
+                 <button class="operation">-</button>
+                 <button class="result">=</button>
+
+                 <button class="zero digit right">0</button>
+                 <button class="right dot">.</button>
+                 <button class="operation">+</button>
+             </div>
+         </div>         
+    </div>
+ </body>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/script.js"></script>
+    
+</html>

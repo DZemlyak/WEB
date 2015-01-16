@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Game</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <label>Количество карточек:</label>
+                <select id='game-field-size'>
+                    <option value="4">4 карты</option>
+                    <option value="8">8 карт</option>
+                    <option value="16">16 карт</option>
+                    <option value="32">32 карты</option>
+                </select> 
+                <button type="button" id="startButton">Новая игра</button>
+                <h2 id="end-text" hidden="hidden"></h2>
+            </div>
+            <div class="card-container" id="game-field">
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</html>

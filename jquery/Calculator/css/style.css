@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 10px;
+}
+.wrapper {
+    width: 212px;
+    height: 322px;
+    border: 8px solid RGB(92,125,150);
+    border-top: 30px solid RGB(92,125,150); 
+    background: linear-gradient(180deg, #ecf3fc, #d9e4f1);
+}
+
+.header h2 {
+    margin: 0;
+    margin-top: -30px;
+    font: 200 15px sans-serif;
+    line-height: 30px;
+}
+
+.header img {
+    float: left;
+    margin: 7px;
+}
+
+.panel {
+    margin: 10px;
+}
+
+.text-panel {
+    border: 1px #8e9cad solid;
+    border-radius: 3px;
+}
+
+.history-panel {
+    height: 100px;
+}
+
+.history-panel textarea {
+    margin: 1px 0;
+    padding: 0;
+    padding-right: 10px;
+    width: 94%;
+    height: 98%;
+    resize: none;
+    border: none;
+    border-bottom: 1px #d1d7de solid;
+    background: linear-gradient(180deg, #eaf2fb, #f4f8fd);
+    font: bold 15px sans-serif;
+    text-align: right;
+}
+
+.input-panel {
+    height: 50px;
+}
+
+.input-panel input {
+    width: 170px;
+    height: 98%;
+    border: none;
+    text-align: right;
+    padding: 0 10px;
+    font: bold 16px sans-serif;
+    background: linear-gradient(180deg, #f6f9fd, white);
+}
+
+.buttons-panel {
+    text-align: justify;
+}
+.buttons-panel button {
+    width: 31px;
+    height: 25px;
+    margin-top: 5px;
+    color: #63395b;
+    font: bold 12px sans-serif;
+    border: 1px #8797aa solid;
+    border-radius: 3px;
+    background: linear-gradient(180deg, white, #d6e1ee);
+    transition: all 0.5s linear 0s;
+}
+
+.buttons-panel button:hover {
+    background: linear-gradient(180deg, white, rgb(255,209,111));
+    border: 1px rgb(255,209,0) solid;
+}
+
+.buttons-panel .zero {
+    width: 71px;
+}
+
+.buttons-panel .right {
+    margin-right: 5px;
+}
+
+.buttons-panel .result {
+    float: right;
+    height: 55px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

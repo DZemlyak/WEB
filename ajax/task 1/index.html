@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jquery task 1</title>
+        <script type="text/javascript" 
+ src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+    </head>
+    <body>
+        <button type="button" onclick="loadText()" >загрузить</button>
+        <div id="textBlock">
+        
+        </div>
+        
+    </body>
+</html>
+
+<script>
+    function loadText() {
+        $('#textBlock').load('text.txt');
+    }
+</script>
