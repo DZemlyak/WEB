@@ -1,0 +1,15 @@
+D:\Project\Temp\Education_JavaScript\Education_JavaScript\bin\Education_JavaScript.dll
+D:\Project\Temp\Education_JavaScript\Education_JavaScript\bin\Education_JavaScript.pdb
+D:\Project\Temp\Education_JavaScript\Education_JavaScript\bin\EntityFramework.dll
+D:\Project\Temp\Education_JavaScript\Education_JavaScript\bin\EntityFramework.xml
+D:\Project\Temp\Education_JavaScript\Education_JavaScript\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Temp\Education_JavaScript\Education_JavaScript\obj\Debug\Education_JavaScript.dll
+D:\Project\Temp\Education_JavaScript\Education_JavaScript\obj\Debug\Education_JavaScript.pdb
+C:\Users\Дмитрий\Desktop\Task JQuery Ajax\Task JQuery Ajax\Education_JavaScript\Education_JavaScript\obj\Debug\Education_JavaScript.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Desktop\Task JQuery Ajax\Task JQuery Ajax\Education_JavaScript\Education_JavaScript\obj\Debug\Education_JavaScript.dll
+C:\Users\Дмитрий\Desktop\Task JQuery Ajax\Task JQuery Ajax\Education_JavaScript\Education_JavaScript\obj\Debug\Education_JavaScript.pdb
+C:\Users\Дмитрий\Desktop\Task JQuery Ajax\Task JQuery Ajax\Education_JavaScript\Education_JavaScript\bin\Education_JavaScript.dll.config
+C:\Users\Дмитрий\Desktop\Task JQuery Ajax\Task JQuery Ajax\Education_JavaScript\Education_JavaScript\bin\Education_JavaScript.dll
+C:\Users\Дмитрий\Desktop\Task JQuery Ajax\Task JQuery Ajax\Education_JavaScript\Education_JavaScript\bin\Education_JavaScript.pdb
+C:\Users\Дмитрий\Desktop\Task JQuery Ajax\Task JQuery Ajax\Education_JavaScript\Education_JavaScript\bin\EntityFramework.dll
+C:\Users\Дмитрий\Desktop\Task JQuery Ajax\Task JQuery Ajax\Education_JavaScript\Education_JavaScript\bin\EntityFramework.xml
